@@ -3,14 +3,6 @@ LOCAL_PATH := device/samsung/a14m
 # Dynamic partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
-# Boot control HAL
-PRODUCT_PACKAGES += \
-    bootctrl \
-    bootctrl.recovery \
-    android.hardware.boot@1.2-service \
-    android.hardware.boot@1.2-mtkimpl \
-    android.hardware.boot@1.2-mtkimpl.recovery \
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
@@ -42,4 +34,4 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # Hidl
-#PRODUCT_ENFORCE_VINTF_MANIFEST := false
+PRODUCT_ENFORCE_VINTF_MANIFEST := false
