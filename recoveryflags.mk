@@ -22,7 +22,6 @@ TW_EXCLUDE_APEX := true
 TW_BACKUP_EXCLUSIONS := /data/fonts
 
 # Product
-PRODUCT_ENFORCE_VINTF_MANIFEST := true
 PRODUCT_FULL_TREBLE := true
 
 # Tw-StatusBar
